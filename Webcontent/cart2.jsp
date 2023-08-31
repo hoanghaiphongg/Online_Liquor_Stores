@@ -19,7 +19,7 @@
 <%@include file="Includes/head.jsp" %>
 </head>
 <body>
-<%@include file="Includes/navbar.jsp" %>
+<%@include file="Includes/nav.jsp" %>
 
 
 <div class= "container">

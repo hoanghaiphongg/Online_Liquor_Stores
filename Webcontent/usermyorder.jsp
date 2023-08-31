@@ -24,12 +24,19 @@
 <head>
 <title>Order</title>
 <%@include file="Includes/head.jsp" %>
+<style>
+        .container{
+        margin-top: 200px;
+        font-size: 20px;
+        }
+       
+</style>
+
 </head>
 <body>
-<%@include file="Includes/navbar2.jsp" %>
+<%@include file="Includes/nav2.jsp" %>
 
 <div class= "container">
-		<div class = "card-header my-3">My Order</div>
 
 
 <table class="table table-light">

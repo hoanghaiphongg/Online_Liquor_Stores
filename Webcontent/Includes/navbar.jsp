@@ -1,14 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-info">
 	<div class ="container">
-<form class="form-inline" action="index.jsp" method="get">
-			<div class="input-group">
-				<input type="text" class="form-control" size="30" name="search"
-					placeholder="Search" required>
-				<div class="input-group-btn">
-					<input type="submit" class="btn btn-danger" value="Search" />
-				</div>
-			</div>
-		</form>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

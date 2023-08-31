@@ -17,21 +17,21 @@
 <head>
 <title>Customer</title>
 <%@include file="Includes/head.jsp" %>
+<style>
+        .container{
+        margin-top: 200px;
+        font-size: 20px;
+        }
+       
+</style>
 </head>
 <body>
-<%@include file="Includes/navbar.jsp" %>
+<%@include file="Includes/nav.jsp" %>
 
+ <div class="app">
 
 <div class= "container">
-<form action ="cart2.jsp" method="post">
-				<div class = "form-group row">
-					<label>Find Customer</label>
-					<input type="text" class="form-control" name = "name" placeholder="Enter customer's name">
-				</div>
-				<div class="form-group row">
-	   				<button type="submit" class="btn btn-primary">Find</button>
-	  			</div>
-</form>
+
 
 <table class="table table-light">
   <thead>
@@ -76,6 +76,7 @@
 			
 </div>
 
+</div>
 
 
 

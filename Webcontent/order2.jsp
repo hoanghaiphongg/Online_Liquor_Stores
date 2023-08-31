@@ -16,9 +16,16 @@
 <head>
 <title>Order</title>
 <%@include file="Includes/head.jsp" %>
+<style>
+        .container{
+        margin-top: 200px;
+        font-size: 20px;
+        }
+       
+</style>
 </head>
 <body>
-<%@include file="Includes/navbar.jsp" %>
+<%@include file="Includes/nav.jsp" %>
 
 
 <div class= "container">

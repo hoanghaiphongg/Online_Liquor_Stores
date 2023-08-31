@@ -21,21 +21,21 @@
 <head>
 <title>Order</title>
 <%@include file="Includes/head.jsp" %>
+<style>
+        .container{
+        margin-top: 200px;
+        font-size: 20px;
+        }
+       
+</style>
 </head>
 <body>
-<%@include file="Includes/navbar.jsp" %>
+<%@include file="Includes/nav.jsp" %>
+ <div class="app">
 
 
 <div class= "container">
-<form action ="order2.jsp" method="post">
-				<div class = "form-group row">
-					<label>Find Order </label>
-					<input type="text" class="form-control" name = "id" placeholder="Enter customer_id">
-				</div>
-				<div class="form-group row">
-	   				<button type="submit" class="btn btn-primary">Find</button>
-	  			</div>
-</form>
+
 
 <table class="table table-light">
   <thead>
@@ -93,6 +93,7 @@
 			
 </div>
 
+</div>
 
 
 
